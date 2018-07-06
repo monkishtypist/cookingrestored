@@ -1,0 +1,76 @@
+/*
+ Theme Name:   Soledad Child Theme
+ Theme URI:    http://pencidesign.com/
+ Description:  Soledad Child Theme - Made by PenciDesign
+ Author:       Pencidesign
+ Author URI:   http://pencidesign.com/
+ Template:     soledad
+ Text Domain:  soledad
+*/
+
+/* = Theme customization go here
+-------------------------------------------------------------- */
+
+
+/* Custom Fonts */
+@font-face {
+	font-family: 'lfscriptregular';
+	src: url('/wp-content/themes/soledad-child/fonts/lfscript-regular-webfont.woff2') format('woff2'),
+		url('/wp-content/themes/soledad-child/fonts/lfscript-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Widget Titles */
+.widget-title {
+	font-family: lfscriptregular !important;
+}
+
+/* Footer Subscribe Form */
+.footer-subscribe .widget .mc4wp-form input[type="text"], 
+.footer-subscribe .widget .mc4wp-form input[type="email"], 
+.footer-subscribe .widget .mc4wp-form input[type="date"], 
+.footer-subscribe .widget .mc4wp-form input[type="number"], 
+.footer-subscribe .widget .mc4wp-form input[type="search"], 
+.footer-subscribe .widget .mc4wp-form input[type="password"] {
+	display: inline-block;
+	margin-right: 1rem;
+	max-width: 300px;
+}
+.footer-subscribe .widget .mc4wp-form input[type="submit"], 
+.footer-subscribe .widget .mc4wp-form button[type="submit"] {
+	display: inline-block;
+	max-width: 200px;
+}
+@media screen and (max-width: 767px) {
+	.footer-subscribe .widget .mc4wp-form input[type="text"], 
+	.footer-subscribe .widget .mc4wp-form input[type="email"], 
+	.footer-subscribe .widget .mc4wp-form input[type="date"], 
+	.footer-subscribe .widget .mc4wp-form input[type="number"], 
+	.footer-subscribe .widget .mc4wp-form input[type="search"], 
+	.footer-subscribe .widget .mc4wp-form input[type="password"] {
+		display: block;
+		margin-bottom: 1rem;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 320px;
+	}
+	.footer-subscribe .widget .mc4wp-form input[type="submit"], 
+	.footer-subscribe .widget .mc4wp-form button[type="submit"] {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 320px;
+	}
+}
+
+/* Footer Instagram Widget */
+.footer-instagram .widget .jr-insta-thumb ul.thumbnails.jr_col_4 li {
+	width: 21.875% !important;
+}
+
+@media screen and (max-width: 767px) {
+	.footer-instagram .widget .jr-insta-thumb ul.thumbnails.jr_col_4 li {
+		width: 21.875% !important;
+	}
+}
