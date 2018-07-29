@@ -21,9 +21,14 @@
 	font-style: normal;
 }
 
-/* Widget Titles */
-.widget-title {
+/* Typography */
+.widget-title,
+.header-standard h2 a {
 	font-family: lfscriptregular !important;
+}
+.header-standard h2 a {
+	text-transform: capitalize !important;
+	font-size: 2.5rem;
 }
 
 /* Footer Subscribe Form */
