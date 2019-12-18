@@ -1,9 +1,9 @@
 /*
- Theme Name:   Soledad Child Theme
- Theme URI:    http://pencidesign.com/
- Description:  Soledad Child Theme - Made by PenciDesign
- Author:       Pencidesign
- Author URI:   http://pencidesign.com/
+ Theme Name:   Cooking Restored Child Theme
+ Theme URI:    http://cookingrestored.com/
+ Description:  A Soledad Child Theme for use on Cooking Restored
+ Author:       Monkishtypist
+ Author URI:   http://monkishtypist.com/
  Template:     soledad
  Text Domain:  soledad
 */
@@ -15,8 +15,8 @@
 /* Custom Fonts */
 @font-face {
 	font-family: 'lfscriptregular';
-	src: url('/wp-content/themes/soledad-child/fonts/lfscript-regular-webfont.woff2') format('woff2'),
-		url('/wp-content/themes/soledad-child/fonts/lfscript-regular-webfont.woff') format('woff');
+	src: url('/wp-content/themes/cookingrestored/fonts/lfscript-regular-webfont.woff2') format('woff2'),
+		url('/wp-content/themes/cookingrestored/fonts/lfscript-regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -32,27 +32,27 @@
 }
 
 /* Footer Subscribe Form */
-.footer-subscribe .widget .mc4wp-form input[type="text"], 
-.footer-subscribe .widget .mc4wp-form input[type="email"], 
-.footer-subscribe .widget .mc4wp-form input[type="date"], 
-.footer-subscribe .widget .mc4wp-form input[type="number"], 
-.footer-subscribe .widget .mc4wp-form input[type="search"], 
+.footer-subscribe .widget .mc4wp-form input[type="text"],
+.footer-subscribe .widget .mc4wp-form input[type="email"],
+.footer-subscribe .widget .mc4wp-form input[type="date"],
+.footer-subscribe .widget .mc4wp-form input[type="number"],
+.footer-subscribe .widget .mc4wp-form input[type="search"],
 .footer-subscribe .widget .mc4wp-form input[type="password"] {
 	display: inline-block;
 	margin-right: 1rem;
 	max-width: 300px;
 }
-.footer-subscribe .widget .mc4wp-form input[type="submit"], 
+.footer-subscribe .widget .mc4wp-form input[type="submit"],
 .footer-subscribe .widget .mc4wp-form button[type="submit"] {
 	display: inline-block;
 	max-width: 200px;
 }
 @media screen and (max-width: 767px) {
-	.footer-subscribe .widget .mc4wp-form input[type="text"], 
-	.footer-subscribe .widget .mc4wp-form input[type="email"], 
-	.footer-subscribe .widget .mc4wp-form input[type="date"], 
-	.footer-subscribe .widget .mc4wp-form input[type="number"], 
-	.footer-subscribe .widget .mc4wp-form input[type="search"], 
+	.footer-subscribe .widget .mc4wp-form input[type="text"],
+	.footer-subscribe .widget .mc4wp-form input[type="email"],
+	.footer-subscribe .widget .mc4wp-form input[type="date"],
+	.footer-subscribe .widget .mc4wp-form input[type="number"],
+	.footer-subscribe .widget .mc4wp-form input[type="search"],
 	.footer-subscribe .widget .mc4wp-form input[type="password"] {
 		display: block;
 		margin-bottom: 1rem;
@@ -60,7 +60,7 @@
 		margin-right: auto;
 		max-width: 320px;
 	}
-	.footer-subscribe .widget .mc4wp-form input[type="submit"], 
+	.footer-subscribe .widget .mc4wp-form input[type="submit"],
 	.footer-subscribe .widget .mc4wp-form button[type="submit"] {
 		display: block;
 		margin-left: auto;
