@@ -79,3 +79,8 @@
 		width: 21.875% !important;
 	}
 }
+
+/* Contact Form 7 */
+.wpcf7 input {
+	max-width: unset;
+}
